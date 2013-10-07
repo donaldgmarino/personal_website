@@ -3,5 +3,12 @@ $(document).ready ( function() {
 });
 
 function initPage() {
-  $("#test_dialog").dialog();
+  
+	// draw the curtain
+	$("#fader").effect("fade", null, 500, hideFader);
+	
+}
+
+function hideFader(){
+    $("#fader").remove();
 }

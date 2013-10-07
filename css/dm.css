@@ -8,13 +8,46 @@ body {
 
 #home_banner {
   text-align: center;
-  padding: 4px;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  width: 100%;
   background: #000000;
-  border-bottom: 2px solid #000000;
+  z-index: 70;
 }
 
-#home_title {
-  font-size: 1.2em;
+.home_title {
+  font-size: 1.0em;
   font-weight: bold;
-  color: #cccccc;
+  color: #ffffff;
+}
+
+#green_dot {
+	font-size: 1.0em;
+  font-weight: bold;
+	color: rgb(100,250,10);
+}
+
+#splash {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 36px;
+	width: 20px;
+	background: rgb(100,250,10);
+	border: 2px solid #000000;
+	z-index: 80;
+}
+
+#fader {
+	margin:0px;
+  background: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width: 100%;
+  z-index: 200;
 }
