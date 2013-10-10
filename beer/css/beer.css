@@ -1,0 +1,96 @@
+/* beer stylesheet */
+
+body {
+  background:#541c23;
+  color:#d6cdbe;
+  background-image: url(/beer/images/brown_ale_foam.png);
+  background-repeat: repeat-x;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color:#d6cdbe;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d6cdbe;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #d6cdbe;
+}
+
+.title {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  height: 60px;
+  width: 1030px;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+  border: none;
+}
+
+.sidebar {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  height: 400px;
+  width: 220px;
+  text-align: center;
+  border: none;
+}
+
+.recipe_top {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.recipe_links {
+  text-align: left;
+  margin-left: 10px;
+  font-size:0.8em;
+}
+
+.beer_link {
+  text-decoration: underline;
+  cursor: hand;
+}
+
+.beer_link:hover {
+  text-decoration: underline;
+  color: #red;
+  cursor: hand;
+}
+
+.beer_title {
+  font-size: 1.3em;
+}
+
+.main {
+  position: absolute;
+  top: 170px;
+  left: 260px;
+  height: 500px;
+  width: 800px;
+  overflow: auto;
+  margin-left: 20px;
+  border: none;
+  font-size:0.8em;
+}
+
+.footer {
+  position: absolute;
+  top: 700px;
+  left: 30px;
+  height: 50px;
+  width: 1030px;
+  text-align: center;
+  border: none;
+}
+
+/*******************************/
